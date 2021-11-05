@@ -11,6 +11,9 @@ body{
     text-align: center;
 }
 form#inicioSesion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: lightcyan;
     border: 1px solid black;
     height: 30vh;
@@ -24,12 +27,16 @@ button{
     padding: 0.5vh 3vh;
     border-radius: 2vh;
 }
-input.formulario{
-    margin: 1vh 0vh;
+p.formulario{
+    height: 1.3em;
+    background-color: white;
+}
+p.formulario , input.formulario{
     font-size: 1.2em;
     text-align: center;
     border-radius: 2vh;
     border: 1px solid black;
+    width: 60%;
 }
 input.formulario:hover , li p:hover, input.formulario:focus{
     background-color: rgb(180, 202, 202);
