@@ -9,19 +9,18 @@
 </head>
 <body>
     <div id="contenedor">
-    <form id="inicioSesion">
+    <form id="inicioSesion" action="Ejercicio2.html" >
         <h1>Acceso Banca Online</h1>
         <h5>Indica tu DNI y clave para acceder</h5>
         <input type="text" id="dni" class="formulario"></br>
         <input type="number" onfocus="claveActiva()" id="clave" class="formulario" readonly></br>
-        <button type="submit">Entrar</button>
+        <button type="submit" onclick="cambiarPagina()">Entrar</button>
     </form>
         <div id="teclado">
             <ul id="numeros">
 
             </ul>
         </div>
-       
     </div>
 </body>
 <script src="Ejercicio.js"></script>
